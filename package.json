@@ -1,0 +1,19 @@
+{
+  "name": "fake-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate.js",
+  "scripts": {
+    "start": "json-server generate.js --routes routes.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}

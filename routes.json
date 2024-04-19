@@ -1,0 +1,5 @@
+{
+  "/": "/db",
+  "/users/posts": "/users?_embed=posts",
+  "/users/:id/posts": "/users/:id?_embed=posts"
+}
